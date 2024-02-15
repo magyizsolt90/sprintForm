@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "SPRINTFORM"; ObjectID = "0Cj-nL-xlO"; */
+"0Cj-nL-xlO.text" = "SPRINTFORM";
+
+/* Class = "UILabel"; text = "Spent this month"; ObjectID = "2FP-j8-lbe"; */
+"2FP-j8-lbe.text" = "Spent this month";
+
+/* Class = "UILabel"; text = "Spent most on"; ObjectID = "7AH-NT-DR8"; */
+"7AH-NT-DR8.text" = "Spent most on";
+
+/* Class = "UILabel"; text = "Transaction history"; ObjectID = "8bz-Cr-Wk1"; */
+"8bz-Cr-Wk1.text" = "Transaction history";
+
+/* Class = "UIButton"; normalTitle = "see all"; ObjectID = "DiS-4c-AbT"; */
+"DiS-4c-AbT.normalTitle" = "see all";
+
+/* Class = "UILabel"; text = "Recent transactions"; ObjectID = "FFv-la-e78"; */
+"FFv-la-e78.text" = "Recent transactions";
+
+/* Class = "UITabBarItem"; title = "transactions"; ObjectID = "FON-kA-xpG"; */
+"FON-kA-xpG.title" = "transactions";
+
+/* Class = "UITabBarItem"; title = "dashboard"; ObjectID = "Orh-0M-roI"; */
+"Orh-0M-roI.title" = "dashboard";
+
+/* Class = "UILabel"; text = "123,000HUF"; ObjectID = "TKX-4p-Rsm"; */
+"TKX-4p-Rsm.text" = "123,000HUF";
+
+/* Class = "UILabel"; text = "Your Partner in Digital Solutions"; ObjectID = "eh1-oD-Q6d"; */
+"eh1-oD-Q6d.text" = "Your Partner in Digital Solutions";
+
+/* Class = "UILabel"; text = "welcome back"; ObjectID = "fg6-kk-Dwm"; */
+"fg6-kk-Dwm.text" = "welcome back 👋🏻";
+
+/* Class = "UILabel"; text = "Hello SprintForm"; ObjectID = "p2w-z3-Luc"; */
+"p2w-z3-Luc.text" = "Hello SprintForm";
+
+/* Class = "UIButton"; configuration.title = "see all"; ObjectID = "ze1-sk-Bji"; */
+"ze1-sk-Bji.configuration.title" = "see all";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ze1-sk-Bji"; */
+"ze1-sk-Bji.normalTitle" = "Button";
