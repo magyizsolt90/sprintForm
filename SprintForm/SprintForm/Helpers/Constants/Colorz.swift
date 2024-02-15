@@ -10,6 +10,7 @@ import UIKit
 struct Colorz {
     static let housingKoral =       UIColor(named: "housingKoral")!
     static let travelGreen =        UIColor(named: "travelGreen")!
+    static let clothingMagenta =    UIColor(named: "clothingMagenta")!
     static let foodOrange =         UIColor(named: "foodOrange")!
     static let utilityGray =        UIColor(named: "utilityGray")!
     static let insuranceGreen =     UIColor(named: "insuranceGreen")!

@@ -11,6 +11,7 @@ enum TransactionCategory: String, CaseIterable {
     case housing
     case travel
     case food
+    case clothing
     case utilities
     case insurance
     case healthcare
@@ -38,6 +39,8 @@ extension TransactionCategory {
             return Colorz.travelGreen
         case .food:
             return Colorz.foodOrange
+        case .clothing:
+            return Colorz.clothingMagenta
         case .utilities:
             return Colorz.utilityGray
         case .insurance:
@@ -63,6 +66,8 @@ extension TransactionCategory {
             return Images.travel
         case .food:
             return Images.food
+        case .clothing:
+            return Images.dress
         case .utilities:
             return Images.utility
         case .insurance:

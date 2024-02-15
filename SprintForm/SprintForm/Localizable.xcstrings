@@ -18,6 +18,23 @@
         }
       }
     },
+    "transaction_categery_clothing" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "clothing"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "divat"
+          }
+        }
+      }
+    },
     "transaction_categery_entertainment" : {
       "extractionState" : "manual",
       "localizations" : {

@@ -10,10 +10,10 @@ import UIKit
 class DashboardVC: UIViewController {
     @IBOutlet weak var transactionsTableView: UITableView!
     @IBOutlet weak var categoriesCollection: UICollectionView!
-    @IBOutlet weak var monthPanelView: UIView!
+
     @IBOutlet weak var monthlyCostLabel: UILabel!
-    @IBOutlet weak var mostSpentPanelView: UIView!
-    
+    @IBOutlet weak var summaryPanel: UIView!
+
     @IBOutlet weak var scrollHeightConst: NSLayoutConstraint!
     @IBOutlet weak var transactionTableHeightCons: NSLayoutConstraint!
     
@@ -32,7 +32,7 @@ class DashboardVC: UIViewController {
         calculateCategoryCostsPerMonth()
         setupCategoriesCollection()
     }
-
+    
     @IBAction func showAllTransactions(_ sender: Any) {
         navigateToTransactions()
     }
@@ -45,10 +45,8 @@ extension DashboardVC {
         setupSummaryViews()
         
         func setupSummaryViews() {
-            monthPanelView.layer.cornerRadius = 20
-            monthPanelView.layer.masksToBounds = true
-            mostSpentPanelView.layer.cornerRadius = 20
-            mostSpentPanelView.layer.masksToBounds = true
+            summaryPanel.layer.cornerRadius = 20
+            summaryPanel.layer.masksToBounds = true
         }
         
         func setupScroller() {
@@ -60,11 +58,6 @@ extension DashboardVC {
 
     private func getTransactions() {
         transactions = TransactionVM.allTransactions
-        //TODO: UNCOMMENT ME
-//        self.transactions = TransactionVM.allTransactions.sorted(by: {
-//            guard let d1 = $0.date, let d2 = $1.date else { return false }
-//            return d1 > d2
-//        })
     }
     
     private func calculateCategoryCostsPerMonth() {
@@ -146,7 +139,7 @@ extension DashboardVC: UICollectionViewDelegate, UICollectionViewDataSource, UIC
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: TransactionCategoryCell.cellID, for: indexPath) as! TransactionCategoryCell
         let sortedCategoryKey = aggregatedSortedKeys[indexPath.row]
         if let category = TransactionCategory(rawValue: sortedCategoryKey) {
-            var spent = aggregatedCategories[category.rawValue] ?? 0
+            let spent = aggregatedCategories[category.rawValue] ?? 0
             var spentOnCategory = Double(spent).prettyNumber + "HUF"
             if spent == 0 {
                 spentOnCategory = "0HUF"

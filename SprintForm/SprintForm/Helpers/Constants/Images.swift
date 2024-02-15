@@ -11,6 +11,7 @@ struct Images {
     static let house =          UIImage(systemName: "house.and.flag.fill")!
     static let travel =         UIImage(systemName: "airplane")!
     static let food =           UIImage(systemName: "fork.knife")!
+    static let dress =          UIImage(systemName: "tshirt.fill")!
     static let utility =        UIImage(systemName: "lightbulb.fill")!
     static let insurance =      UIImage(systemName: "shield.fill")!
     static let healthcare =     UIImage(systemName: "heart.fill")!
